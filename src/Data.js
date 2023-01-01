@@ -20,3 +20,25 @@ export const aboutCards = [
       "Use a decentralized network of DeFi Keeper nodes to automate contracts, mitigating risk of manual interventions and centralized servers.",
   },
 ];
+export const FooterDatas = [
+  {
+    title: "Products",
+    links: ["app", "analytics", "Token List", "Defi"],
+  },
+  {
+    title: "Products",
+    links: ["app", "analytics", "Token List", "Defi"],
+  },
+  {
+    title: "Products",
+    links: ["app", "analytics", "Token List", "Defi"],
+  },
+  {
+    title: "Products",
+    links: ["app", "analytics", "Token List", "Defi"],
+  },
+  {
+    title: "Products",
+    links: ["app", "analytics", "Token List", "Defi"],
+  },
+];
