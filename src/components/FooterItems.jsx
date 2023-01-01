@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterItems = ({ FooterTitle, FooterLinks }) => {
   return (
-    <div className="flex flex-col items-center justify-center ">
+    <div className="flex flex-col items-center pt-[30px] justify-center ">
       <div>
         <h3 className="font-bold text-white border-b-4 border-[var(--primary-color)]">
           {FooterTitle}

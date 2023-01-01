@@ -6,7 +6,7 @@ import { VscServerProcess } from "react-icons/vsc";
 const About = () => {
   return (
     <div className="w-full h-full align-center justify-center">
-      <div className="max-w-[1250px] mx-auto max-h-[680px] p-16 px-16 align-center justify-center ">
+      <div className="max-w-[1250px] mx-auto min-h-[680px] p-16 px-16 align-center justify-center ">
         <h1 className="py-4 w-full text-white text-center">
           A Growing Protocol Ecosystem
         </h1>

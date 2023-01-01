@@ -2,7 +2,7 @@ import React from "react";
 import terminal from "../assets/terminal.png";
 const Developers = () => {
   return (
-    <div className="max-w-[1250px] grid grid-cols-1 place-items-center h-[640px] max-h-[500px] mx-auto md:grid-cols-2 ">
+    <div className="max-w-[1250px] grid grid-cols-1 place-items-center h-[640px] min-h-[500px] mx-auto md:grid-cols-2 ">
       <div className=" flex flex-col juststify-center items-center text-center">
         <h2 className="text-white font-bold text-[2.25rem] max-h-[330px]">
           Superpowers for DEFI developers.
