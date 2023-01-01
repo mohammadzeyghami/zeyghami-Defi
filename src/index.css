@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #00d8ff;
+  --primary-purple: #6a00ff;
+  --primary-navbar-bg: rgba(0, 0, 0, 0.8);
+}
+@layer base {
+  * {
+    @apply m-0 p-0;
+  }
+  body {
+    @apply bg-black text-white;
+  }
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  li {
+    @apply p-4 text-white no-underline;
+  }
+
+  button {
+    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-color)] text-white font-bold py-3 px-7  rounded-3xl;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.icon {
+  color: white;
+}
